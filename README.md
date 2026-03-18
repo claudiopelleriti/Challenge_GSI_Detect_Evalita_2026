@@ -40,3 +40,8 @@ Given the microscopic size of the dataset, the quality of every single label was
 - **Knowledge Distillation**: To mitigate overfitting, I implemented a Teacher Ensemble to produce soft labels on which to train a Student model. However, Confidence Analysis revealed that the model still struggled enormously on the minority classes and the "NO" class.
 - **Contrastive Learning (SetFit)**: This was the architectural turning point. Working in a few-shot learning logic, SetFit effectively understood the semantic distances between text embeddings even with very few examples, doubling the performance (Macro F1-Score of ~0.62).
 - **Cascaded Attempt**: Finally, I experimented with a cascaded pipeline (Binary Model for Stereotype/NO followed by the Multiclass model). However, the approach worsened the F1-Score, confirming the direct SetFit model as the definitive final solution.
+
+
+---
+## Authors
+[cite_start]Project realized by: Claudio Pelleriti, Giacomo Barone, Andrea Garuccio, and Laura Zanghì[cite: 9].
