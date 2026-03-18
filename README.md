@@ -3,6 +3,7 @@
 Due to a known issue in GitHub's web rendering engine (related to the handling of JSON interactive widget metadata in notebooks), the preview of the `.ipynb` files might show an "Invalid Notebook" error message.
 The files, the code, and the training logs are perfectly intact. To properly view the project, simply download the notebooks and open them locally via Jupyter or VS Code.
 
+---
 # EVALITA 2026 GSI:detect - Gender Stereotype Detection and Classification
 
 This repository contains the implementation of my university project based on the EVALITA 2026 GSI:detect challenge. The goal of the project is the identification and classification of gender stereotypes within short Italian texts. The work is structured into two main tasks, addressed in their respective notebooks.
@@ -44,4 +45,4 @@ Given the microscopic size of the dataset, the quality of every single label was
 
 ---
 ## Authors
-[cite_start]Project realized by: Claudio Pelleriti, Giacomo Barone, Andrea Garuccio, and Laura Zanghì[cite: 9].
+Project realized by: Claudio Pelleriti, Andrea Garuccio, and Laura Zanghì.
